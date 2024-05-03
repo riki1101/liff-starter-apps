@@ -42,4 +42,8 @@ export default {
   env: {
     LIFF_ID: process.env.LIFF_ID,
   },
+  
+  generate: {
+    fallback: true
+  }
 }
